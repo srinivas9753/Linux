@@ -109,9 +109,10 @@ macOS ships with a robust Unix shell environment—Zsh (default) or Bash—compl
 
 # 2. Homebrew Package Manager
 Homebrew simplifies installation of open-source software, bringing Linux-style package management to your Mac.
-Installation:
+
+**Installation:**
 - Paste into Terminal:
-- 
+  
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 <img width="740" height="131" alt="image" src="https://github.com/user-attachments/assets/0e8d3ba6-f636-4391-99a0-67d04b8c272d" />
@@ -122,7 +123,7 @@ Installation:
 - Install packages: brew install git wget htop.
 - Search: brew search <tool>.
 - Update and cleanup:
-- 
+  
 <img width="871" height="197" alt="image" src="https://github.com/user-attachments/assets/aaad151a-b687-49fc-b3b9-b84bf9a77156" />
 
 **Advanced Tips:**
@@ -146,7 +147,7 @@ Running a full Linux VM on Mac lets you replicate server environments or test di
 - Follow the installation prompts as on a physical machine.
 - Install Guest Additions/Tools for better integration: drag-and-drop, shared folders, and dynamic display.
 
-# . Docker Desktop
+# 4. Docker Desktop
 Docker Desktop on Mac runs Linux containers in a lightweight VM, making it easy to build, test, and deploy services locally.
 
 **Installation:**

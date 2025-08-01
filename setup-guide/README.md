@@ -113,9 +113,9 @@ Homebrew simplifies installation of open-source software, bringing Linux-style p
 **Installation:**
 - Paste into Terminal:
   
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-<img width="740" height="131" alt="image" src="https://github.com/user-attachments/assets/0e8d3ba6-f636-4391-99a0-67d04b8c272d" />
+   <img width="740" height="131" alt="image" src="https://github.com/user-attachments/assets/0e8d3ba6-f636-4391-99a0-67d04b8c272d" />
 
 **Basic Usage:**
 
@@ -124,7 +124,7 @@ Homebrew simplifies installation of open-source software, bringing Linux-style p
 - Search: brew search <tool>.
 - Update and cleanup:
   
-<img width="871" height="197" alt="image" src="https://github.com/user-attachments/assets/aaad151a-b687-49fc-b3b9-b84bf9a77156" />
+  <img width="871" height="197" alt="image" src="https://github.com/user-attachments/assets/aaad151a-b687-49fc-b3b9-b84bf9a77156" />
 
 **Advanced Tips:**
 - Tap additional repositories: brew tap mongodb/brew.

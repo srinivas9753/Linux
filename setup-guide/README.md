@@ -81,7 +81,7 @@ Docker Desktop for Windows runs Linux containers in a managed VM, letting you sp
 - Pull a base image: docker pull ubuntu:latest.
 - Run an interactive shell:
    <img width="866" height="127" alt="image" src="https://github.com/user-attachments/assets/17d53619-06f4-4a7e-9b61-7631d21c5017" />
-docker run -it ubuntu bash
+
 - Use docker-compose.yml to define multi-container setups.
   
 **Advantages:**
@@ -98,6 +98,7 @@ macOS ships with a robust Unix shell environment—Zsh (default) or Bash—compl
 - Open Terminal via Spotlight (⌘+Space, type “Terminal”).
 - Verify shell: echo $SHELL (likely /bin/zsh).
 - Install Xcode Command Line Tools:
+  
   <img width="683" height="107" alt="image" src="https://github.com/user-attachments/assets/d84c7d6b-6545-4f1e-b8e1-10e31f1e310f" />
   
 **Common Commands:**
@@ -136,7 +137,7 @@ Running a full Linux VM on Mac lets you replicate server environments or test di
 **Prerequisites:**
 - VirtualBox (free) or paid Parallels/VMware Fusion
 - Linux ISO or OVA file
-- 
+  
 **Setup Steps:**
 - Install your VM hypervisor.
 - Create a new VM: select “Linux” and pick the distro version.
